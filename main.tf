@@ -11,11 +11,11 @@ provider "aws" {
 }
 
 
-resource "aws_s3_bucket" "example" {
-  bucket = "mdsfdsfsdf-buckedfsdfsdfdsfdsfsdfft"
+# resource "aws_s3_bucket" "example" {
+#   bucket = "mdsfdsfsdf-buckedfsdfsdfdsfdsfsdfft"
 
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
-}
+#   tags = {
+#     Name        = "My bucket"
+#     Environment = "Dev"
+#   }
+# }
